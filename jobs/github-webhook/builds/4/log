@@ -1,0 +1,19 @@
+Started by GitHub push by deepikar08
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/github-webhook
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/github-webhook/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/deepikar08/script.git # timeout=10
+Fetching upstream changes from https://github.com/deepikar08/script.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/deepikar08/script.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 7681c118cc398cc2ace745651d316c3fe72325c6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7681c118cc398cc2ace745651d316c3fe72325c6 # timeout=10
+Commit message: "Merge pull request #1 from deepikar08/branch1"
+ > git rev-list --no-walk ce35f1d394590cfbbd483821f8952a22d75a3935 # timeout=10
+Finished: SUCCESS

@@ -1,0 +1,24 @@
+Started by GitHub push by deepikar08
+Started by GitHub push by deepikar08
+Started by GitHub push by deepikar08
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/github-webhook
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/deepikar08/script.git
+ > git init /var/lib/jenkins/workspace/github-webhook # timeout=10
+Fetching upstream changes from https://github.com/deepikar08/script.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/deepikar08/script.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/deepikar08/script.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ce35f1d394590cfbbd483821f8952a22d75a3935 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ce35f1d394590cfbbd483821f8952a22d75a3935 # timeout=10
+Commit message: "Create fact.sh"
+First time build. Skipping changelog.
+Finished: SUCCESS

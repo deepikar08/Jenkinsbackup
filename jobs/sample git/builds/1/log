@@ -1,0 +1,35 @@
+Started by user [8mha:////4PvBEVruiuQuyRH6odcYnPiu2MfhNMjsGbYz2Gj+exveAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYB/dLi1CL9lNTUgszsxCIDCwC3zDClxQAAAA==[0mDeepika R
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/sample git
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/deepikar08/script.git
+ > git init /var/lib/jenkins/workspace/sample git # timeout=10
+Fetching upstream changes from https://github.com/deepikar08/script.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/deepikar08/script.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/deepikar08/script.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 334aca5b1a658c75ae75931ea8c970cee7057a6a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 334aca5b1a658c75ae75931ea8c970cee7057a6a # timeout=10
+Commit message: "Create factorial.sh"
+First time build. Skipping changelog.
+[sample git] $ /bin/sh -xe /tmp/jenkins9543780187450319686.sh
++ echo checking out the output
+checking out the output
++ ls
+biggest.sh
+factorial.sh
+file1
+file2
+file3
+file4
+file5
+practice
+smallest.sh
+Finished: SUCCESS

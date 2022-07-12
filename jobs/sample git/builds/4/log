@@ -1,0 +1,36 @@
+Started by user [8mha:////4PvBEVruiuQuyRH6odcYnPiu2MfhNMjsGbYz2Gj+exveAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYB/dLi1CL9lNTUgszsxCIDCwC3zDClxQAAAA==[0mDeepika R
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/sample git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/sample git/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/deepikar08/script.git # timeout=10
+Fetching upstream changes from https://github.com/deepikar08/script.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/deepikar08/script.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision cf5f7572fb1782d8f3b2bfb6d843d21b51ace2d3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf5f7572fb1782d8f3b2bfb6d843d21b51ace2d3 # timeout=10
+Commit message: "Create biggestof2"
+ > git rev-list --no-walk 334aca5b1a658c75ae75931ea8c970cee7057a6a # timeout=10
+[sample git] $ /bin/sh -xe /tmp/jenkins16028083736950437950.sh
++ echo checking out the output
+checking out the output
++ ls
+biggest.sh
+biggestof2
+factorial.sh
+file1
+file2
+file3
+file4
+file5
+practice
+smallest.sh
++ sh biggestof2.sh
+sh: 0: Can't open biggestof2.sh
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

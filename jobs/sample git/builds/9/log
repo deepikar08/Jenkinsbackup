@@ -1,0 +1,35 @@
+Started by user [8mha:////4PvBEVruiuQuyRH6odcYnPiu2MfhNMjsGbYz2Gj+exveAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYB/dLi1CL9lNTUgszsxCIDCwC3zDClxQAAAA==[0mDeepika R
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/sample git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/sample git/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/deepikar08/script.git # timeout=10
+Fetching upstream changes from https://github.com/deepikar08/script.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/deepikar08/script.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ce35f1d394590cfbbd483821f8952a22d75a3935 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ce35f1d394590cfbbd483821f8952a22d75a3935 # timeout=10
+Commit message: "Create fact.sh"
+ > git rev-list --no-walk 2ca2f14a8d7eae56ae0d89844e3bdeaafbcd62e8 # timeout=10
+[sample git] $ /bin/sh -xe /tmp/jenkins9025301591244360206.sh
++ echo checking out the output
+checking out the output
++ ls
+biggest.sh
+biggestof2.sh
+fact.sh
+factorial.sh
+file1
+file2
+file3
+file4
+file5
+practice
+smallest.sh
+test1.sh
+Finished: SUCCESS

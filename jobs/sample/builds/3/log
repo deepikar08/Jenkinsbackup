@@ -1,0 +1,8 @@
+Started by user [8mha:////4PvBEVruiuQuyRH6odcYnPiu2MfhNMjsGbYz2Gj+exveAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYB/dLi1CL9lNTUgszsxCIDCwC3zDClxQAAAA==[0mDeepika R
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/sample
+[sample] $ /bin/sh -xe /tmp/jenkins14144438392345462788.sh
++ echo this is file executed
+this is file executed
+Triggering a new build of [8mha:////4I+QgWTFwVfX5eW+FRcvbqNLDCCKocuqJ6rg54KjpAlOAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP3E4uLM9Lzc1LwSEA8AR1NgOsgAAAA=[0massignmentjob
+Finished: SUCCESS

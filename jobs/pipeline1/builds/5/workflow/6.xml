@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@820.vd1a_6cc65ef33">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2729.vea_17b_79ed57a_">
+    <parentIds>
+      <string>5</string>
+    </parentIds>
+    <id>6</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.BodyInvocationAction plugin="workflow-api@1165.v02c3db_a_6b_e36"/>
+    <wf.a.LabelAction plugin="workflow-api@1165.v02c3db_a_6b_e36">
+      <displayName>checkout</displayName>
+    </wf.a.LabelAction>
+    <wf.a.TimingAction plugin="workflow-api@1165.v02c3db_a_6b_e36">
+      <startTime>1657559049841</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>
